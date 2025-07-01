@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>femelle website</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+  
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="path/to/fontawesome/css/all.min.css" rel="stylesheet">
+
+    
+    <style>
+        :root {
+            --pink: #e84393;
+          }
+      
+          .pink-text {
+            color: var(--pink);
+          }
+          .navbar.pink-text a {
+            color: var(--pink); /* Force pink for all links within .navbar */
+          }
+          .icons.pink-text a {
+            color: var(--pink); /* Apply pink color */
+        
+            text-decoration: none; /* Remove underline */
+            margin-right: 1rem; /* Space between icons */
+          }
+      
+          
+      
+          .logo {
+            font-size: 2rem;
+            text-decoration: none;
+            font-weight: bold;
+          }
+    </style>  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+
+ <!--header section -->
+<header>
+    <input type="checkbox" id="toggler" />
+    <label for="toggler" class="fas fa-bars"></label>
+    <a href="#" class="logo pink-text">Femelle<span>.</span></a>
+    <nav class="navbar pink-text" >
+        <a href="#home ">home</a>
+        <a href="#about">about</a>
+        <a href="#products">products</a>
+        <a href="#review">review</a>
+    </nav>
+
+    <div class="icons pink-text">
+        <a href="#" class="fas fa-heart "></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+        <a href="#" class="fas fa-user"></a>
+    </div>
+
+</header>
+<section class="home"  id="home">
+  <div class="content" style="text-align:justify">
+    <h3 class="text-5xl font-bold">New Products</h3>
+    <span class="text-3xl font-semibold">offering latest trends</span>
+    <p> Embrace your femininity and celebrate your unique essence with Femelle, </p>
+    <p>a brand dedicated to empowering women by enhancing their natural beauty, </p>
+    <p>confidence, and individuality through thoughtfully crafted products and experiences.</p>
+    <a href="#" class="btn">shop now</a>
+  </div>
+</section> 
+<section class="about" id="about">
+  <h1 class="heading"><span> about </span>us</h1>
+  <div class="row">
+    <div class="image-container">
+      <img src="./images/image 2.webp" alt="about us image">
+      <h3>Best Sellers</h3>
+    
+
+    </div>
+    <div class="content">
+      <h3 class="font-semibold">Why choose us</h3>
+      <p>Choosing Femelle makeup products ensures you get high-quality, skin-friendly formulas that enhance your natural beauty. With vibrant pigments, long-lasting wear, and innovative designs, Femelle caters to diverse needs while prioritizing elegance and comfort. Perfect for anyone seeking reliable and luxurious makeup solutions!</p>
+      <a href="#" class="btn">learn more</a>
+    </div>
+  </div>
+</section>
+<section class="icons-container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 px-4 py-8 bg-[#4b2b3d]">
+  <div class="bg-[#2d1b26] p-6 rounded-lg shadow-md text-center">
+    <img src="./images/image3.webp" alt="Free Delivery" class="w-12 h-12 mx-auto mb-2">
+    <h3 class="text-pink-400 text-lg font-semibold">Free Delivery</h3>
+  </div>
+
+  <div class="bg-[#2d1b26] p-6 rounded-lg shadow-md text-center">
+    <img src="./images/image4.webp" alt="Fast Return" class="w-12 h-12 mx-auto mb-2">
+    <h3 class="text-pink-400 text-lg font-semibold">Fast Return<br>Within 7 Days</h3>
+  </div>
+
+  <div class="bg-[#2d1b26] p-6 rounded-lg shadow-md text-center">
+    <img src="./images/image5.webp" alt="Offers and Gifts" class="w-12 h-12 mx-auto mb-2">
+    <h3 class="text-pink-400 text-lg font-semibold">Offers and Gifts</h3>
+  </div>
+</section>
+
+<section class="products" id="products">
+  <h1 class="heading">latest <span>products</span></h1>
+  <div class="box-container">
+    <div class="box">
+      <span class="discount">-10%</span>
+      <div class="image">
+        <img src="./images/image7.webp" alt="">
+        <div class="icons">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="cart-bn">add to cart</a>
+          <a href="#" class="fas fa-share"></a>
+        </div>
+      </div>
+      <div class="content">
+        <h3>Lipstick</h3>
+        <div class="span">$12.99 <span>$15.9</span></div>
+      </div>
+    </div>
+    <div class="box">
+      <span class="discount">-10%</span>
+      <div class="image">
+        <img src="./images/image6.webp" alt="">
+        <div class="icons">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="cart-bn">add to cart</a>
+          <a href="#" class="fas fa-share"></a>
+        </div>
+      </div>
+      <div class="content">
+        <h3>Lipstick</h3>
+        <div class="span">$12.99 <span>$15.9</span></div>
+      </div>
+    </div>
+    <div class="box">
+      <span class="discount">-20%</span>
+      <div class="image">
+        <img src="./images/image8.webp" alt="">
+        <div class="icons">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="cart-bn">add to cart</a>
+          <a href="#" class="fas fa-share"></a>
+        </div>
+      </div>
+      <div class="content">
+        <h3>Lipstick</h3>
+        <div class="span">$12.99 <span>$15.9</span></div>
+      </div>
+    </div>
+    <div class="box">
+      <span class="discount">-10%</span>
+      <div class="image">
+        <img src="./images/image9.webp" alt="">
+        <div class="icons">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="cart-bn">add to cart</a>
+          <a href="#" class="fas fa-share"></a>
+        </div>
+      </div>
+      <div class="content">
+        <h3>Lipstick</h3>
+        <div class="span">$12.99 <span>$15.9</span></div>
+      </div>
+    </div>
+    <div class="box">
+      <span class="discount">-10%</span>
+      <div class="image">
+        <img src="./images/image10.webp" alt="">
+        <div class="icons">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="cart-bn">add to cart</a>
+          <a href="#" class="fas fa-share"></a>
+        </div>
+      </div>
+      <div class="content">
+        <h3>Lipstick</h3>
+        <div class="span">$12.99 <span>$15.9</span></div>
+      </div>
+    </div>
+    <div class="box">
+      <span class="discount">-10%</span>
+      <div class="image">
+        <img src="./images/image11.webp" alt="">
+        <div class="icons">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="cart-bn">add to cart</a>
+          <a href="#" class="fas fa-share"></a>
+        </div>
+      </div>
+      <div class="content">
+        <h3>Lipstick</h3>
+        <div class="span">$12.99 <span>$15.9</span></div>
+      </div>
+    </div>
+    <div class="box">
+      <span class="discount">-10%</span>
+      <div class="image">
+        <img src="./images/image12.webp" alt="">
+        <div class="icons">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="cart-bn">add to cart</a>
+          <a href="#" class="fas fa-share"></a>
+        </div>
+      </div>
+      <div class="content">
+        <h3>Lipstick</h3>
+        <div class="span">$12.99 <span>$15.9</span></div>
+      </div>
+    </div>
+    <div class="box">
+      <span class="discount">-10%</span>
+      <div class="image">
+        <img src="./images/image13.webp" alt="">
+        <div class="icons">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="cart-bn">add to cart</a>
+          <a href="#" class="fas fa-share"></a>
+        </div>
+      </div>
+      <div class="content">
+        <h3>Lipstick</h3>
+        <div class="span">$12.99 <span>$15.9</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="review" id="review">
+  <h1 class="heading">Customer's <span>Review</span></h1>
+  <div class="box-container">
+    <div class="box">
+      <div class="star">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+      </div>
+      <P>I recently discovered this website while searching for quality lipsticks, and I couldn’t be happier with my experience! The site is incredibly user-friendly, with a sleek design that makes browsing effortless. They have a huge variety of shades and finishes to suit every mood and occasion—whether you're into mattes, satins, or glossy looks.</P>
+      <div class="user">
+        <div class="user-info">
+          <h3>Sriya Parayil</h3>
+        </div>
+      </div>
+      <span class="fas fa-quote-right"></span>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <div class="box-container">
+    <div class="box">
+      <div class="star">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+      </div>
+      <P>Shipping was super fast, and the packaging was gorgeous and eco-friendly. It felt like opening a gift! Plus, the customer support team was quick to respond to my questions about vegan and cruelty-free options.</P>
+      <div class="user">
+        <div class="user-info">
+          <h3>Aaliya Hawkins</h3>
+        </div>
+      </div>
+      <span class="fas fa-quote-right"></span>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <div class="box-container">
+    <div class="box">
+      <div class="star">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+      </div>
+      <P>If you’re a lipstick lover like me, this is the go-to website for all your beauty needs. I’ll definitely be coming back for more!</P>
+      <div class="user">
+        <div class="user-info">
+          <h3>Avanthika Binu</h3>
+        </div>
+      </div>
+      <span class="fas fa-quote-right"></span>
+    </div>
+  </div>
+</section> 
+<section class="contact" id="contact">
+  <h1 class="heading"><span>Contact </span>us</h1>
+  <div class="row">
+    <form action="">
+      <input type="text" placeholder="text" class="box">
+      <input type="email" placeholder="email" class="box">
+      <input type="number" placeholder="number" class="box">
+      <textarea class="box" placeholder="message" id="" cols="30" rows="10"></textarea>
+      <input type="submit" value= "send message" class="btn">
+    </form>
+    <div class="image">
+      <img src="./images/image14.webp" alt="">
+    </div>
+  </div>
+</section> 
+<section class="footer bg-gray-100 text-gray-700 py-10" id="footer">
+  <div class="box-container grid grid-cols-1 md:grid-cols-3 gap-8 px-6">
+    <div class="box">
+      <h3 class="text-xl font-semibold mb-3">Quick Links</h3>
+      <a href="#home" class="block hover:text-pink-500">Home</a>
+      <a href="#about" class="block hover:text-pink-500">About</a>
+      <a href="#products" class="block hover:text-pink-500">Products</a>
+      <a href="#review" class="block hover:text-pink-500">Review</a>
+      <a href="#contact" class="block hover:text-pink-500">Contact</a>
+    </div>
+
+    <div class="box">
+      <h3 class="text-xl font-semibold mb-3">Extra Links</h3>
+      <a href="#" class="block hover:text-pink-500">My Account</a>
+      <a href="#" class="block hover:text-pink-500">My Orders</a>
+      <a href="#" class="block hover:text-pink-500">My Favourites</a>
+    </div>
+
+    <div class="box">
+      <h3 class="text-xl font-semibold mb-3">Locations</h3>
+      <a href="#" class="block hover:text-pink-500">India</a>
+      <a href="#" class="block hover:text-pink-500">China</a>
+      <a href="#" class="block hover:text-pink-500">Japan</a>
+      <a href="#" class="block hover:text-pink-500">France</a>
+    </div>
+  </div>
+
+  <div class="text-center mt-10 text-sm text-gray-600">
+    &copy; 2025 Femelle. All rights reserved. | Designed with 💖 by Neehara
+  </div>
+</section>
+
+</body>
+</html>
